@@ -1,0 +1,23 @@
+// scss variables
+$mainBgColor:#2dc5f8;
+
+// google fonts link import here
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+// Bootstrap import link
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// all sub pages adding here
+@import "./Hero.scss";
+@import "./Nav";
+@import "./SectionTitle";
+@import "./Skill";
+@import "./Project";
+@import "./Contact";
+
+// Body Front Family
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+   

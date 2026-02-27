@@ -1,0 +1,117 @@
+#Project{
+ margin-top: 60px;
+}
+.single-project-wrapper{
+    box-shadow: 0px 5px 10px black;
+    position: relative;
+    width:400px;
+    min-width: auto !important;
+    height: 290px;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .img-part img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .info-part{
+      width: 100%;
+      height: 125px;
+      position: absolute;
+      bottom: -10px;
+      padding: 0px 15px;
+      background: linear-gradient(0deg, #000003e0 5%,  #ffffff00 95%);
+      h1{
+         color: #ffff;
+         font-size: 2.2rem;
+         margin-top: 36px;
+      }
+      p{
+        color: #ffff;
+        margin-top: -10px;
+        
+      }
+      .arrow-link{
+        transform: translate(-111px, 1px);
+        margin-top: -3px;
+        display: block;
+        span{
+            color: white;
+            display: none;
+          }
+    }
+    }
+}
+
+.single-project-wrapper:hover{
+    .img-part img{
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+    }
+    overflow: hidden;
+     .info-part{
+        h1{
+            margin-top: 0px;
+            transition: 1s;
+        }
+        span{
+            margin-top: 0px;
+            transition: 1s;
+        }
+        .arrow-link{
+            transition: 0.8s;
+            transform: translate(0px, 0px);
+        }
+     }
+}
+.single-project-wrapper:hover .arrow-link span{
+    display: block;
+
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .single-project-wrapper{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        margin-top: 25px;
+        overflow: hidden;
+       .info-part{
+        h1{
+            font-size: 16px;
+        }
+        p{
+           font-size: 11px;
+        }
+        .arrow-link{
+            span{
+             font-size: 10px;
+            }
+        }
+       }
+    }
+  }
+
+  @media (min-width:100px) and (max-width: 768px) {
+    .single-project-wrapper{
+        margin: auto;
+        margin-top: 25px;
+        min-width: 100px;
+    }
+  }
+  @media (min-width:100px) and (max-width: 428px) {
+    .single-project-wrapper{
+        width: 320px;
+    }
+  }
+  @media (min-width:100px) and (max-width: 428px) {
+    .single-project-wrapper{
+        width: 310px;
+    }
+  }
+
+
+

@@ -1,0 +1,71 @@
+.skill-wrapper{
+   @mixin public-css{
+        width: 180px;
+        height: 17px;
+        background-color: #8dc0ff;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        margin: 1.2rem 0px;
+        box-shadow: 5px 3px 5px black
+    }
+    .html{     
+        @include public-css();
+        animation: html 5s infinite;
+    }
+    .css{
+        @include public-css();
+        animation: css 5s infinite;
+    }
+    .javascript{
+        @include public-css();
+        animation: javascript 5s infinite;
+    }
+    .react{
+        @include public-css();
+        animation: react 5s infinite;
+    }
+    .node{
+        @include public-css();
+        animation: node 5s infinite;
+    }
+}
+
+@keyframes html {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:90%; background-color: #1771df;}
+  }
+  @keyframes css {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:87%; background-color: #1771df;}
+  }
+  @keyframes javascript {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:80%; background-color: #1771df;}
+  }
+  @keyframes react {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:85%; background-color: #1771df;}
+  }
+  @keyframes node {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:75%; background-color: #1771df;}
+  }
+
+  .inline-skill{
+    display: flex;
+    span{
+        margin-top: 17px;
+        font-weight: 800;
+        padding: 0rem 1.7rem;
+      }
+      h4{
+        margin-top: 15px;
+        padding-left: 8px;
+      }
+    }
+    
+   
+
+  

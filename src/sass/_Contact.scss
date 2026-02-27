@@ -1,0 +1,76 @@
+
+#Contact{
+    // background-color: #3e8ded;
+    background-image: url(../../public/images/footer.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 6rem;
+    border-top:1px solid black;
+}
+.contract-wrapper{
+    h1{
+        font-size: 3.2rem;
+        border-bottom: 2px solid #fffefe;
+        color: white;
+        i{
+            text-shadow: -2px -1px 1px #000000;
+            letter-spacing: 15px;
+           
+        }
+    }
+    padding: 5rem 0rem;
+    text-align: center;
+     .single-input{
+        margin: auto;
+        text-align: center;
+        display: block;
+        width: 60%;
+        padding: 1rem 0rem;
+        margin-top: 1.2rem ;
+        border-radius: 16px;
+     }
+      .text-aria{
+        margin-top: 1.2rem;
+        width: 60% ;
+      }
+      .click-me{
+       display: block;
+       margin: auto;
+       margin-top: 5px;
+       background-color: aqua;
+      }
+      .click-me:hover{
+        background-color: #f24040;
+        color: white;
+        box-shadow: 0px 0px 7px 1px black;
+      }
+      .single-input{
+        background: transparent;
+        border: 2px solid white;
+        box-shadow: 0px 0px 5px 1px white;
+      }
+      .single-input:focus{
+        outline: none;
+        border-color: #0000006f;
+      }
+      .single-input::placeholder{
+        color:#ffffff;
+      }
+      .text-aria{
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 1px white;
+      }
+      .text-aria::placeholder{
+        color:#ffffff;
+      }
+      .text-aria:focus{
+        outline: none;
+        border-color: #0000006f;
+      }
+}
