@@ -26,6 +26,11 @@
         @include public-css();
         animation: react 5s infinite;
     }
+    .nextjs{
+        @include public-css();
+        animation: react 5s infinite;
+     
+    }
     .node{
         @include public-css();
         animation: node 5s infinite;
@@ -45,6 +50,10 @@
     100% {top: 200px;  width:80%; background-color: #1771df;}
   }
   @keyframes react {
+    0%   {top: 0px; width: 0%;}
+    100% {top: 200px;  width:85%; background-color: #1771df;}
+  }
+    @keyframes nextjs {
     0%   {top: 0px; width: 0%;}
     100% {top: 200px;  width:85%; background-color: #1771df;}
   }

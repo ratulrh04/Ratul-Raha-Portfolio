@@ -18,9 +18,12 @@
 .left-contant{
     img{
       width: 100%;
-      height: 27rem;
+      height: 23rem;
       object-fit: cover;
       object-position: center;
+    }:hover{
+        border:1px solid #477de3;
+        transform: 2s;
     }
 }
 .right-contant{

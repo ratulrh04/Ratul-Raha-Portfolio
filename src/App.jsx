@@ -1,6 +1,7 @@
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Skill from "./pages/Skill";
@@ -21,6 +22,7 @@ let projectInfoOne = {
       <Skill/>
       <Project {...projectInfoOne}/>
       <Contact/>
+      <Footer/>
     </div>
   );
 };

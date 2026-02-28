@@ -1,0 +1,23 @@
+.footer-wrapper{
+    display: flex;
+    .facebook, .instagram, .github, .email{
+      font-size: 30px;
+      margin: 20px;
+    }
+    .facebook i{
+        color: black;
+    }
+    .instagram i{
+      
+      color: black;
+    }
+    .github i{
+       color: black;
+    }
+    .email i{
+       color: black;
+    } 
+    p{
+      
+    }
+}

@@ -40,6 +40,13 @@ const Skill = () => {
                        <h4>85%</h4>
                       </div>
                     </div>
+                     <div className="row">
+                       <div className="inline-skill">
+                       <span style={{paddingRight:'27px'}}>Next.Js</span>
+                       <div className="nextjs"></div>
+                       <h4>85%</h4>
+                      </div>
+                    </div>
                     <div className="row">
                       <div className="inline-skill">
                         <span style={{paddingRight:'40px'}}>Node</span>

@@ -27,13 +27,15 @@ const About = () => {
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="left-contant"  data-aos="fade-right">
-                                    <img src="/images/myPhoto.jpg" alt="my-photo"/>
+                                    <img src="../../public/images/AboutMe.jpeg" alt="my-photo"/>
                                 </div>
                             </div>
                             <div className="col-md-8">
                 <div className="right-contant">
           <h1>A Programmer and Frontend Developer</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum aperiam modi dolorem temporibus. Fugiat eius, iusto officiis voluptatem nulla id illo veniam, veritatis exercitationem voluptas a ipsam sed minima recusandae sint? Ea numquam, provident, aliquid asperiores facere excepturi!</p>
+          <p>I’m a frontend developer who enjoys building clean and responsive websites. I work mainly with React and Next.js, along with HTML, CSS, JavaScript, and Tailwind CSS.
+
+            I like turning ideas into real, interactive web experiences and always focus on writing clean, organized code. I’m continuously learning and improving my skills to build better and more modern web applications.</p>
                                      <div className="row">
                                         <div className="col-md-6">
                                           <div className="info-left-contant">
@@ -44,7 +46,7 @@ const About = () => {
                                                     <span>Degree<code>:</code></span><i> Bsc in CSE</i>
                                                 </div>
                                                 <div className="inline-contant" data-aos="fade-left">
-                                                    <span>Phone<code>:</code></span><i> 01334-579004</i>
+                                                    <span>Phone<code>:</code></span><i> 01880-450804</i>
                                                 </div>
                                                 <div className="inline-contant" data-aos="fade-up-right">
                                                     <span>Address<code>:</code></span><i> Khulna, Bangladesh</i>
@@ -57,7 +59,7 @@ const About = () => {
                                                     <span>Birthday<code>:</code></span><i>24.08.2002</i>
                                                 </div>
                                                 <div className="inline-contant" data-aos="fade-up-right">
-                                                    <span>Age<code>:</code></span><i>22</i>
+                                                    <span>Age<code>:</code></span><i>23</i>
                                                 </div>
                                                 <div className="inline-contant" data-aos="fade-left">
                                                     <span>Email<code>:</code></span><i>ratulraha.04@gmail.com</i>
