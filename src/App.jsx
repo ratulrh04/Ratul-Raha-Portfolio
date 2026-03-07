@@ -6,22 +6,24 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Service from "./pages/Service";
 import Skill from "./pages/Skill";
-
+import projectOneImage from "./assets/screencapture-localhost-5174-2026-03-02-03_09_40.png";
+import projectTwoImage from "./assets/megamart.png";
+import projectThreeImage from "./assets/text-utils.png";
 
 const App = () => {
 // project section props start here :-
 let projectInfoOne = {
-  imgOne: '../public/images/screencapture-localhost-5174-2026-03-02-03_09_40.png',
+  imgOne: projectOneImage,
   headingOne: 'Astronaut ',
   paraOne: 'Astronaut project create by React js'
 }
 let projectInfoTwo = {
-  imgTwo: '../public/images/megamart.png',
+  imgTwo: projectTwoImage,
   headingTwo: 'Megamart',
   paraTwo: 'E-commerce onepage layout create by Next.js'
 }
 let projectInfoThree = {
-  imgThree: '../public/images/text-utils.png',
+  imgThree: projectThreeImage,
   headingThree: 'Text-Utils',
   paraThree: 'React Text-Utils web app'
 }

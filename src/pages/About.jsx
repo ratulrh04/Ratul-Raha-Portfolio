@@ -2,6 +2,7 @@ import SectionTitle from "../components/SectionTitle";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import aboutMeImage from "../assets/AboutMe.jpeg"
 
 const About = () => {
 
@@ -27,7 +28,7 @@ const About = () => {
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="left-contant"  data-aos="fade-right">
-                                    <img src="../../public/images/AboutMe.jpeg" alt="my-photo"/>
+                                    <img src={aboutMeImage} alt="my-photo"/>
                                 </div>
                             </div>
                             <div className="col-md-8">

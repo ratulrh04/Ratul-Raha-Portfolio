@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import profileImage from "../assets/Profile.png"
 
 
 
@@ -23,7 +24,7 @@ const HeroSec = () => {
                     </div>
                     <div className="col-lg-6 ">
                         <div className="profile-wrapper">
-                               <img className="img-fluid" src="../../public/images/Profile.png" alt="Profile" />
+                               <img className="img-fluid" src={profileImage} alt="Profile" />
                         </div>
                     </div>
                 </div>
