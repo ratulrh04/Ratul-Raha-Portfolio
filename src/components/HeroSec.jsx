@@ -1,6 +1,8 @@
 import Nav from "./Nav";
 
 
+
+
 const HeroSec = () => {
     return (
         <div>
@@ -14,6 +16,9 @@ const HeroSec = () => {
                               <h1> A F<i>R</i>O<i>N</i>T-E<i>N</i>D D<i>E</i>V<i>E</i>L<i>O</i>P<i>E</i>R</h1>
                               <p>specializing in React & Next.js.</p>
                               <p> I build fast, responsive websites for businesses and startups.</p>
+                             <button className="hire-me">Hire Me Now</button>
+
+
                         </div>
                     </div>
                     <div className="col-lg-6 ">

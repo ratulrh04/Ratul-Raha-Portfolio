@@ -8,7 +8,7 @@ const Skill = () => {
     }
     return (
         <div>
-            <section id="Skill">
+            <section id="Skill" style={{marginTop : "50px"}}>
                <SectionTitle {...skillTitle}/>
                <div className="skill-wrapper">
                   <div className="container">
