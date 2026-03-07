@@ -66,3 +66,23 @@
         color: black;
         transition: 0.3s;
     }
+
+    // media query writing hrer :- 
+    @media (min-width: 350px) and (max-width: 992px) {
+        .hire-me{
+            margin-bottom: 35px !important;
+        }
+        .profile-wrapper{
+            padding-bottom: 35px !important;
+        }
+   }
+   @media (min-width: 350px) and (max-width: 578px){
+        .profile-wrapper{
+             height: 350px;
+             padding-bottom: 35px !important;
+        }
+        .profile-wrapper img{
+             height: 350px;
+        } 
+
+   }

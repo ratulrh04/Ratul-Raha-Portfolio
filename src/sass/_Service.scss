@@ -8,24 +8,29 @@
     box-shadow: 0px 5px 5px 5px #71a6f0;
     overflow: hidden;
     margin: 10px;
-    .single-info-part{
-        i{
-          font-size: 1.5rem;
-          color: goldenrod;
-        }
-        h1{
-           font-size: 2rem;
-           padding: 10px 0px;
-           font-weight: bold;
-           color: #71a6f0;
-        }
-        p{
-         color: #000000d2;
-        }
-    }
 }
 
-.service-project-wrapper:hover{
-     border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
+.service-project-wrapper .single-info-part i{
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+.service-project-wrapper .single-info-part h1{
+    font-size: 2rem;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: #71a6f0;
+}
+
+.service-project-wrapper .single-info-part p{
+    color: #000000d2;
+}
+
+.service-project-wrapper:hover .single-info-part i{
+    transition: 0.4s;
+    color: #71a6f0;
+    transform: translatey(-5px);
+}
+.service-project-wrapper:hover .single-info-part h1{
+    color: goldenrod;
 }

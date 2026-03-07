@@ -33,7 +33,7 @@ const About = () => {
                             <div className="col-md-8">
                 <div className="right-contant">
           <h1>A Programmer and Frontend Developer</h1>
-          <p>I’m a frontend developer who enjoys building clean and responsive websites. I work mainly with React and Next.js, along with HTML, CSS, JavaScript, and Tailwind CSS.
+          <p style={{textAlign:"justify"}}>I’m a frontend developer who enjoys building clean and responsive websites. I work mainly with React and Next.js, along with HTML, CSS, JavaScript, and Tailwind CSS.
 
             I like turning ideas into real, interactive web experiences and always focus on writing clean, organized code. I’m continuously learning and improving my skills to build better and more modern web applications.</p>
                                      <div className="row">
