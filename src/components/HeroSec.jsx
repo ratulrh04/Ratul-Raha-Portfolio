@@ -3,6 +3,12 @@ import profileImage from "../assets/Profile.png"
 
 
 
+// scroll down js function write down here
+function scrollToSection() {
+  const section = document.getElementById('services');
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
 
 const HeroSec = () => {
     return (
@@ -17,7 +23,9 @@ const HeroSec = () => {
                               <h1> A F<i>R</i>O<i>N</i>T-E<i>N</i>D D<i>E</i>V<i>E</i>L<i>O</i>P<i>E</i>R</h1>
                               <p>specializing in React & Next.js.</p>
                               <p> I build fast, responsive websites for businesses and startups.</p>
-                             <button className="hire-me">Hire Me Now</button>
+                             <button className="hire-me" onClick={() => window.scrollBy({ top: 2800, behavior: 'smooth' })}>
+                                    Hire Me Now
+                             </button>
 
 
                         </div>
