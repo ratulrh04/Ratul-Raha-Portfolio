@@ -34,3 +34,16 @@
 .service-project-wrapper:hover .single-info-part h1{
     color: goldenrod;
 }
+
+@media (min-width: 300px) and (max-width: 590px) {
+    .resposive-service-class{
+        padding:15px
+    }
+    .service-project-wrapper{
+        width: 85%;
+        height: auto !important;
+        margin: auto;
+        padding-top: 20px !important;
+        overflow: hidden;
+    }
+}

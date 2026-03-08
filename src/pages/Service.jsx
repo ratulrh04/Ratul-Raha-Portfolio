@@ -14,7 +14,7 @@ const Project = (props) => {
                 <div className="row " >
                   <SectionTitle {...projectsTitle}/>
 
-  <div className="col-md-4" style={{overflow:'hidden'}}>
+  <div className="col-md-4 resposive-service-class" style={{overflow:'hidden'}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                            <i className={props.iconOne}></i>
@@ -24,7 +24,7 @@ const Project = (props) => {
           </div>
     </div>
                     
- <div className="col-md-4" style={{overflow:'hidden'}}>
+ <div className="col-md-4 resposive-service-class" style={{overflow:'hidden'}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                             <i className={props.iconTwo}></i>
@@ -34,7 +34,7 @@ const Project = (props) => {
           </div>
     </div>
 
-  <div className="col-md-4" style={{overflow:'hidden'}}>
+  <div className="col-md-4 resposive-service-class" style={{overflow:'hidden'}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                             <i className={props.iconThree}></i>
@@ -45,7 +45,7 @@ const Project = (props) => {
     </div>
                  
                {/* second row */}
-<div className="col-md-4" style={{overflow:'hidden', marginTop:"15px"}}>
+<div className="col-md-4 resposive-service-class" style={{overflow:'hidden', marginTop:"15px"}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                           <i className={props.iconFour}></i>
@@ -55,7 +55,7 @@ const Project = (props) => {
           </div>
     </div>
 
-   <div className="col-md-4" style={{overflow:'hidden' , marginTop:"15px"}}>
+   <div className="col-md-4 resposive-service-class" style={{overflow:'hidden' , marginTop:"15px",}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                             <i className={props.iconFive}></i>
@@ -66,7 +66,7 @@ const Project = (props) => {
     </div>
 
 
-     <div className="col-md-4" style={{overflow:'hidden', marginTop:"15px"}}>
+     <div className="col-md-4 resposive-service-class" style={{overflow:'hidden', marginTop:"15px"}}>
         <div className="service-project-wrapper"  data-aos="fade-up" data-aos-duration="3000">       
                          <div className="single-info-part">
                             <i className={props.iconSix}></i>

@@ -8,8 +8,9 @@ const Nav = () => {
     return (
       <div>
         <BrowserRouter>
+        <div className="container-fluid">
         <nav className="navbar navbar-expand-lg navbar-light">
-    <div className="container-fluid">
+    
       <Link className="navbar-brand" to="/">
         <img src={brandImage} alt="My-Logo" />
       </Link>
@@ -35,8 +36,9 @@ const Nav = () => {
           </li>
         </ul>
       </div>
+       </nav>
     </div>
-  </nav>
+ 
         </BrowserRouter>
       </div>
     );

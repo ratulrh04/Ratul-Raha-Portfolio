@@ -44,32 +44,32 @@ let projectInfoThree = {
 let serviceInfoOne = {
    iconOne : "fa-solid fa-display",
    serviceHeadingOne : "Web Design",
-   peraOne : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraOne : "create clean, modern, and visually appealing website designs that improve user experience and attract visitors."
 }
 let serviceInfoTwo = {
    iconTwo : "fa-solid fa-mobile-screen",
    serviceHeadingTwo : "Fully Responsive",
-   peraTwo : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraTwo : "I build fully responsive websites that adapt seamlessly to all devices, ensuring a smooth and consistent user experience everywhere."
 }
 let serviceInfoThree = {
    iconThree : "fa-solid fa-code",
    serviceHeadingThree : "Development",
-   peraThree : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraThree : "I develop fast, secure, and scalable websites that ensure smooth functionality, high performance, and an excellent user experience across all devices."
 }
 let serviceInfoFour = {
    iconFour : "fa-solid fa-cubes",
    serviceHeadingFour : "Creative Design",
-   peraFour : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraFour : "I create clean, modern, and visually appealing website designs that enhance user experience, engage visitors, and make brands stand out online."
 }
 let serviceInfoFive = {
    iconFive : "fa-solid fa-lightbulb",
    serviceHeadingFive : "Smart Tecnology",
-   peraFive : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraFive : "I use modern tools and smart technologies to build efficient, reliable, and high-performing digital solutions that grow with your business."
 }
 let serviceInfoSix = {
    iconSix : "fa-solid fa-ranking-star",
    serviceHeadingSix : "Branding",
-   peraSix : "text ever since the 1500s, when an unknown printer to make a type specimen book. It has survived not only five centuries"
+   peraSix : "I create strong, consistent, and memorable brand identities that help businesses connect with customers and grow online."
 }
 // service section props end here:-
 

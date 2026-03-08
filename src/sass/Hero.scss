@@ -1,12 +1,16 @@
 #hero-sec{
     background-image: url(../assets/Hero-BG.png);
-    width: 100vw;
+    width: 100%;
     min-height: 650px;
     max-height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.test{
+    outline: none;
+    box-sizing: border-box;
 }
 
 .profile-wrapper{

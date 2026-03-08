@@ -22,7 +22,7 @@ const HeroSec = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6" >
                         <div className="profile-wrapper">
                                <img className="img-fluid" src={profileImage} alt="Profile" />
                         </div>
